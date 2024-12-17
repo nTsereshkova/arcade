@@ -1,0 +1,60 @@
+.score {
+    width: 100%;
+    height: 5vh;
+    border:3px solid green;
+    display:flex;
+    justify-content: space-between;
+}
+.leftLives {
+width: 60%;
+height: 100%;
+display: flex;
+border: 3px solid black;
+
+}
+
+.heart {
+    height: 100%;
+    width: 20%;
+    color:brown;
+    animation: 2s infinite alternate heart;
+}
+
+@keyframes heart {
+    
+        15%,
+        50% {
+          scale: 100%;
+        }
+      
+        50% {
+          scale: 110%;
+          color: rgb(255, 0, 0);
+        }
+      
+}
+
+.howManyLives {
+    height: 100%;
+    width: 80%;
+}
+
+.coinDiv {
+    width: 40%;
+    height: 100%;
+    display: flex;
+
+
+}
+
+.coin {
+    width: 10%;
+    height: 100%;
+    color: rgb(221, 170, 4);
+    animation: 2s infinite alternate coin;
+}
+
+
+/* .coinNumber {
+
+} */

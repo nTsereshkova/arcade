@@ -1,0 +1,8 @@
+.level1 {
+    width: 100%;
+    height: 95%;
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between
+}

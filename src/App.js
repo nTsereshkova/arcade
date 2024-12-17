@@ -1,17 +1,16 @@
 import "./App.css";
 import { WelcomePage } from "./pages/WelcomePage";
-import { GamePageLevel1 } from "./pages/GamePages/GamePageLevel1";
+import { GamePage } from "./pages/GamePage";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
   //const wantToPlay = true;
   return (
-    <div className="App">
+    <div className="app">
       <Routes>
         <Route path="/" element={<WelcomePage />} />
-        <Route path="/game" element={<GamePageLevel1 />} />
+        <Route path="/game" element={<GamePage />} />
       </Routes>
-      <p> тут будет стрелялка</p>
     </div>
   );
 }
