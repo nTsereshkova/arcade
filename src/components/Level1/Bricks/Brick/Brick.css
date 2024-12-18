@@ -1,0 +1,9 @@
+.brick {
+    width: 100px;
+    height: 50px;
+    border-radius: 3px;
+    border:1px solid black;
+    background-color:gray;
+    margin:0 5px;
+
+}
